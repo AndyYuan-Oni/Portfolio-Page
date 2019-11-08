@@ -8,6 +8,11 @@ header {
     border-bottom: 3px solid #cccccc;
 }
 
+.box1 {
+    width: 70%;
+    margin-left: 15%;
+}
+
 .namelabel {
     background: #4aaaa5;
     height: 60px;
@@ -23,7 +28,7 @@ header {
 
 nav {
     position: absolute;
-    left: 62%;
+    right: 15%;
     top: 50px;
 }
 
@@ -58,19 +63,48 @@ body {
 
 .main {
     background: #ffffff;
-    width: 960px;
+    width: 60%;
     position: absolute;
     top: 125px;
-    left: 22%;
-    margin: 10px auto;
+    margin: 10px 20%;
     padding: 30px 50px;
     color: #777777;
     line-height: 2;
+    overflow: auto;
 }
 
 #selfie {
     float: left;
     margin: 10px 30px 10px 0;
+}
+
+.main div img {
+    margin: 40px;
+}
+
+.main h3 {
+    display: inline-block;
+    background: #4aaaa5;
+    color: #ffffff;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.upperlayer {
+    z-index: 999;
+    position: absolute;
+    top: 200px;
+    max-width: 600px;
+}
+
+.underlayer {
+    max-width: 600px;
+}
+
+.upperlayer h3 {
+    margin: 100px 40px 170px;
 }
 
 hr {
