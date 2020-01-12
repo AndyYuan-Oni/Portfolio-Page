@@ -125,6 +125,14 @@ h3.heading {
 }
 
 
+/* project section */
+
+.card-deck a {
+    color: #505962;
+    text-decoration: none;
+}
+
+
 /*-- skills section--*/
 
 .fixed {
